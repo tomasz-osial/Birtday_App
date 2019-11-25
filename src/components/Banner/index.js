@@ -1,21 +1,14 @@
 import React from "react";
-import logo from './Images/bad-pig-icon_big.png';
 import './style.scss'
 
 
 const Banner = () => {
     return (
-        <div className='headContainer'>
-            <span>
-                <img src={logo} alt= {"Logotyp"}/>
-                <h1>Zagroda.pl</h1>
-            </span>
-            <ul className='menu'>
-                <li>O nas</li>
-                <li>Galeria</li>
-                <li>Zaplanuj urodziny</li>
-                <li>Kontakt</li>
-            </ul>
+        <div className='bannerContainer'>
+             <span className='text'>
+                 <h1>Tekst przykładowy</h1>
+                 <p>Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
+             </span>
         </div>
     )
 };
