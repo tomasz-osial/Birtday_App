@@ -3,5 +3,5 @@ import Header from "./index";
 import {storiesOf} from "@storybook/react";
 
 
-storiesOf('Task', module)
+storiesOf('Header', module)
     .add('default', () => <Header />);

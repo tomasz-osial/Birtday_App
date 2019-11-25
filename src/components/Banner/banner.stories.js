@@ -3,5 +3,5 @@ import Banner from "./index";
 import {storiesOf} from "@storybook/react";
 
 
-storiesOf('Task', module)
+storiesOf('Banner', module)
     .add('default', () => <Banner />);
