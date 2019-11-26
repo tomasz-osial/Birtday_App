@@ -41,6 +41,11 @@ class Gallery extends Component {
                 currentIndex: currentIndex +1})
         }
     };
+    componentDidMount() {
+        this.interval = setInterval(()=>{
+            this.goToNextSlide()
+        }, 4000)
+    }
 
     render() {
         return (
@@ -62,6 +67,9 @@ class Gallery extends Component {
                 </div>
             </>
         )
+    }
+    componentWillUnmount() {
+        clearInterval(this.interval)
     }
 }
 const Slide = (props) => {

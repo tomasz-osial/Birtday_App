@@ -1,3 +1,12 @@
+.bannerTitle {
+  background: lightgreen;
+  text-align: center;
+  font-family: sans-serif;
+  color: saddlebrown;
+  padding: 40px;
+  font-size: 32px;
+  font-weight: bold;
+}
 .bannerContainer {
   background-image: linear-gradient(0deg,rgba(0,0,0,0.2) 22%,rgba(0,0,0,0.1) 100%),
   url("./Images/boy-playing-with-fall-leaves-outdoors-36965.jpg");
