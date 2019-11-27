@@ -6,6 +6,7 @@ import Banner from './components/Banner/banner';
 import Gallery from "./components/Gallery/gallery";
 
 
+
 function App() {
   return (
     <div className="App">

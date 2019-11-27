@@ -1,0 +1,45 @@
+body {
+  color: saddlebrown;
+}
+.mainContainer {
+  background-size: 80%;
+  background: rgba(0, 0, 0, 0.1) url("./Images/ramin-talebi-u_b0jWnkgM0-unsplash.jpg") no-repeat center;
+  height: 700px;
+  position: relative;
+  padding: 25px;
+  font-size: 16px;
+  font-family: sans-serif;
+  display: flex;
+}
+.basicOffer {
+  grid-area: main;
+}
+.extraOffer {
+  grid-area: main;
+}
+.calcForm {
+  grid-area: side;
+}
+.calcContainer {
+  background: darkseagreen;
+  padding: 30px;
+  opacity: 0.9;
+  border-radius: 5px;
+  width: 84vw;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "main side"
+  "main side";
+  grid-gap: 40px;
+  margin: 0 auto;
+}
+.calcTitle {
+  background: lightgreen;
+  text-align: center;
+  font-family: sans-serif;
+  color: saddlebrown;
+  padding: 40px;
+  font-size: 32px;
+  font-weight: bold;
+}

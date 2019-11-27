@@ -11,21 +11,21 @@
   align-items: center;
   margin: 25px;
 }
-span {
+.logoContainer {
   display: flex;
   align-items: center;
 }
-img {
+.logo {
   padding: 30px;
 }
-li {
+.menuElement {
   display: inline;
   padding: 15px;
   font-weight: bolder;
   font-size: 18px;
   transition: 0.5s;
 }
-li:hover {
+.menuElement:hover {
   background-color: darkorange;
   border-radius: 20px;
   transition: border-radius 0.8s;

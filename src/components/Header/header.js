@@ -6,15 +6,15 @@ import './style.scss'
 const Header = () => {
     return (
         <div className='headContainer'>
-            <span>
-                <img src={logo} alt= {"Logotyp"}/>
+            <span className='logoContainer'>
+                <img src={logo} alt= {"Logotyp"} className='logo'/>
                 <h1>Zagroda.pl</h1>
             </span>
             <ul className='menu'>
-                <li>O nas</li>
-                <li>Galeria</li>
-                <li>Zaplanuj urodziny</li>
-                <li>Kontakt</li>
+                <li className='menuElement'>O nas</li>
+                <li className='menuElement'>Galeria</li>
+                <li className='menuElement'>Zaplanuj urodziny</li>
+                <li className='menuElement'>Kontakt</li>
             </ul>
         </div>
     )
