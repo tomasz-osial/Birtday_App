@@ -1,5 +1,6 @@
 body {
-  color: saddlebrown;
+  color: #49332B;
+  font-family: 'Fredoka+One', 'sans-serif';
 }
 .mainContainer {
   background-size: 80%;
@@ -20,6 +21,9 @@ body {
 .calcForm {
   grid-area: side;
 }
+.offerContainer{
+  text-align: left;
+}
 .calcContainer {
   background: darkseagreen;
   padding: 30px;
@@ -30,16 +34,67 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "main side"
-  "main side";
+                      "main side";
   grid-gap: 40px;
-  margin: 0 auto;
+  margin: 20px 100px;
+  line-height: 130%;
+  height: 600px;
 }
 .calcTitle {
-  background: lightgreen;
+  background: darkcyan;
   text-align: center;
   font-family: sans-serif;
-  color: saddlebrown;
+  color: greenyellow;
   padding: 40px;
   font-size: 32px;
   font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(1,44,0,0.9);
+  position: relative;
+  z-index: 1;
+}
+.calcTitle::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: darkcyan;
+  transform-origin: top left;
+  transform: skewY(-2deg);
+  z-index: -10;
+}
+.calcTitle::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: darkcyan;
+  transform-origin: bottom left;
+  transform: skewY(1deg);
+  z-index: -10;
+}
+
+.additionalOptions {
+  display: flex;
+  flex-direction: column;
+}
+.headLines {
+  margin: 20px 0 10px 0;
+}
+.info {
+  margin: 10px 0;
+  font-size: 14px;
+}
+.offerInfo {
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  background: #49332B;
+  color: white;
+  border-radius: 5px;
+  width: 70%;
+  margin: 0 auto;
 }

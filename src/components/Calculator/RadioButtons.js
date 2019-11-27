@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 
+import './RadioButtons.scss'
 
 class RadioButtons extends Component{
 
@@ -13,13 +14,14 @@ class RadioButtons extends Component{
         })
     };
 
+    option1Cost = this.props.option1Cost;
+
     render() {
         return(
-            <div className='RadioContainer'>
+            <div className='radioContainer'>
                 <label>
                     <input
                         type='radio'
-                        name='radioButton'
                         value='option1'
                         checked={this.state.selectedOption === 'option1'}
                         onChange={this.handleOptionChange}
@@ -29,7 +31,6 @@ class RadioButtons extends Component{
                 <label>
                     <input
                         type='radio'
-                        name='radioButton'
                         value='option2'
                         checked={this.state.selectedOption === 'option2'}
                         onChange={this.handleOptionChange}
@@ -39,7 +40,6 @@ class RadioButtons extends Component{
                 <label>
                     <input
                         type='radio'
-                        name='radioButton'
                         value='option3'
                         checked={this.state.selectedOption === 'option3'}
                         onChange={this.handleOptionChange}

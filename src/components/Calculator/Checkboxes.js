@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-
+import './Checkboxes.scss'
 class AddOptions extends Component{
 
     state = {
@@ -52,7 +52,7 @@ class AddOptions extends Component{
                         onChange={this.onChangeExtraHour}
 
                     />
-                    <span>
+                    <span className='checkbox'>
                         Dodatkowa godzina zabawy
                     </span>
                 </label>
@@ -63,7 +63,7 @@ class AddOptions extends Component{
                         checked={this.state.isFacePainting}
                         onChange={this.onFacePainting}
                     />
-                    <span>
+                    <span className='checkbox'>
                         Malowanie buziek
                     </span>
                 </label>
@@ -74,7 +74,7 @@ class AddOptions extends Component{
                         checked={this.state.isPiniata}
                         onChange={this.onChangePiniata}
                     />
-                    <span>
+                    <span className='checkbox'>
                         Piniata
                     </span>
                 </label>
@@ -85,7 +85,7 @@ class AddOptions extends Component{
                         checked={this.state.isAnimator}
                         onChange={this.onAnimator}
                     />
-                    <span>
+                    <span className='checkbox'>
                         Dodatkowy animator
                     </span>
                 </label>
@@ -96,7 +96,7 @@ class AddOptions extends Component{
                         checked={this.state.isIllusionist}
                         onChange={this.onIllusionist}
                     />
-                    <span>
+                    <span className='checkbox'>
                         Pokaz iluzjonisty
                     </span>
                 </label>

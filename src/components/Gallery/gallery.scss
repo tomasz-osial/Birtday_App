@@ -19,15 +19,42 @@
 .rightArrow {
   position: absolute;
   top: 50%;
-  right: 0px;
+  right: 0;
   padding: 0;
 }
 .galleryTitle {
-  background: lightgreen;
+  background: darkcyan;
   text-align: center;
   font-family: sans-serif;
-  color: saddlebrown;
-  padding: 40px;
+  color: greenyellow;
+  padding: 30px;
   font-size: 32px;
   font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(1,44,0,0.9);
+  position: relative;
+  z-index: 1;
   }
+.galleryTitle::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: darkcyan;
+  transform-origin: top left;
+  transform: skewY(-2deg);
+  z-index: -10;
+}
+.galleryTitle::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: darkcyan;
+  transform-origin: bottom left;
+  transform: skewY(1deg);
+  z-index: -10;
+}
