@@ -2,6 +2,8 @@ import React, {Component} from "react";
 
 import './calculator.scss';
 import Calendar from "./Calendar";
+import RadioButtons from "./RadioButtons";
+import SelectMotives from "./Select";
 
 class Calculator extends Component{
     render() {
@@ -40,18 +42,12 @@ class Calculator extends Component{
                             <p>Preferowana data - Podaj datę DD/MM/RRRR</p>
                             <Calendar />
                             <h4>Wybierz liczbę uczestników: </h4>
-                            <div>
-                                <input type='radio'/>
-                                <label> Do 10</label>
-                                <input type='radio'/>
-                                <label> 11-20</label>
-                                <input type='radio'/>
-                                <label> 21-30</label>
-                            </div>
-                            <p>Przewidywana liczba uczestników</p>
+                            <RadioButtons />
+                            <h4>Motyw przewodni imprezy</h4>
+                            <SelectMotives />
                             <h4>Usługi dotatkowe</h4>
                             <h3>Orientacyjna wycena imprezy</h3>
-                            <p>Pzybliżony koszt imprezy: </p>
+                            <p>Przybliżony koszt imprezy: </p>
                         </form>
                     </div>
                 </div>
