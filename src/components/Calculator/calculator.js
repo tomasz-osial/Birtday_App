@@ -4,12 +4,13 @@ import './calculator.scss';
 import Calendar from "./Calendar";
 import RadioButtons from "./RadioButtons";
 import SelectMotives from "./Select";
+import AddOptions from "./Checkboxes";
 
 class Calculator extends Component{
     render() {
         return (
             <>
-                <div className='calcTitle'>Kalkulator imprezy</div>
+                <div className='calcTitle'>Zaplanuj imprezę</div>
                 <div className='mainContainer'>
                     <div className='calcContainer'>
                         <div className='offerContainer'>
@@ -45,9 +46,11 @@ class Calculator extends Component{
                             <RadioButtons />
                             <h4>Motyw przewodni imprezy</h4>
                             <SelectMotives />
-                            <h4>Usługi dotatkowe</h4>
+                            <h4>Dodatkowe atrakcje</h4>
+                            <p>Wybierz dodatkowe opcje</p>
+                            <AddOptions />
                             <h3>Orientacyjna wycena imprezy</h3>
-                            <p>Przybliżony koszt imprezy: </p>
+                            <p>Przybliżony koszt imprezy: zł</p>
                         </form>
                     </div>
                 </div>
