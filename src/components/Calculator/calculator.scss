@@ -1,13 +1,13 @@
 body {
   color: #49332B;
-  font-family: 'Fredoka+One', 'sans-serif';
+  font-family: 'Fredoka One', 'sans-serif';
 }
 .mainContainer {
   background-size: 80%;
   background: rgba(0, 0, 0, 0.1) url("./Images/ramin-talebi-u_b0jWnkgM0-unsplash.jpg") no-repeat center;
   height: 700px;
   position: relative;
-  padding: 25px;
+  padding: 100px 25px;
   font-size: 16px;
   font-family: sans-serif;
   display: flex;
@@ -38,7 +38,7 @@ body {
   grid-gap: 40px;
   margin: 20px 100px;
   line-height: 130%;
-  height: 600px;
+  height: 680px;
 }
 .calcTitle {
   background: darkcyan;
@@ -91,10 +91,16 @@ body {
 .offerInfo {
   font-size: 18px;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   background: #49332B;
   color: white;
   border-radius: 5px;
   width: 70%;
   margin: 0 auto;
+}
+.extraOffer li {
+  padding-top: 10px;
+}
+.totalCost {
+  font-size: 26px;
 }

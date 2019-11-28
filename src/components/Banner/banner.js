@@ -5,7 +5,7 @@ import './style.scss'
 const Banner = () => {
     return (
         <>
-            <div className='galleryTitle'>O nas!</div>
+            <div id="div_id" className='galleryTitle'>O nas!</div>
             <div className='bannerContainer'>
                  <span className='text'>
                      <h1 className='title'>Podejmij wyzwanie</h1>

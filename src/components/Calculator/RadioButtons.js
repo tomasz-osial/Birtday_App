@@ -1,55 +1,41 @@
-import React, {Component} from "react";
+import React from "react";
 
 import './RadioButtons.scss'
 
-class RadioButtons extends Component{
-
-    state = {
-        selectedOption:''
-    };
-
-    handleOptionChange = event => {
-        this.setState({
-            selectedOption: event.target.value
-        })
-    };
-
-    option1Cost = this.props.option1Cost;
-
-    render() {
-        return(
+const  RadioButtons = ({selectedOption,handleOptionChange }) => (
             <div className='radioContainer'>
                 <label>
                     <input
+                        className='radioBtn'
                         type='radio'
                         value='option1'
-                        checked={this.state.selectedOption === 'option1'}
-                        onChange={this.handleOptionChange}
+                        checked={selectedOption === 'option1'}
+                        onChange={handleOptionChange}
                     />
                     Do 10
                 </label>
                 <label>
                     <input
+                        className='radioBtn'
                         type='radio'
                         value='option2'
-                        checked={this.state.selectedOption === 'option2'}
-                        onChange={this.handleOptionChange}
+                        checked={selectedOption === 'option2'}
+                        onChange={handleOptionChange}
                     />
                     11-20
                 </label>
                 <label>
                     <input
+                        className='radioBtn'
                         type='radio'
                         value='option3'
-                        checked={this.state.selectedOption === 'option3'}
-                        onChange={this.handleOptionChange}
+                        checked={selectedOption === 'option3'}
+                        onChange={handleOptionChange}
                     />
                     21-30
                 </label>
             </div>
 
-        )
-    }
-}
+        );
 
 export default RadioButtons;

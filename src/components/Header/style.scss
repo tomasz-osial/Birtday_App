@@ -3,7 +3,7 @@
   justify-content: space-between;
   background-color: lighten(lightgreen, 20%);
   color: darkgreen;
-  font-family: sans-serif;
+  font-family: 'Fredoka One', 'sans-serif';
 }
 .menu {
   list-style: none;
@@ -29,4 +29,8 @@
   background-color: darkorange;
   border-radius: 20px;
   transition: border-radius 0.8s;
+}
+.name {
+  font-size: 33px;
+  text-shadow: 1px 1px 1px rgba(1,44,0,0.9);
 }

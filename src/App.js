@@ -6,6 +6,7 @@ import Header from './components/Header/header';
 import Banner from './components/Banner/banner';
 import Gallery from "./components/Gallery/gallery";
 import Calculator from "./components/Calculator/calculator";
+import Footer from "./components/Footer/Footer";
 
 WebFont.load({
     google: {
@@ -20,6 +21,7 @@ function App() {
       <Banner />
       <Gallery />
       <Calculator />
+      <Footer />
     </div>
   );
 }

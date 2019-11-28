@@ -1,56 +1,27 @@
-import React, {Component} from "react";
+import React from "react";
 
 import './Checkboxes.scss'
-class AddOptions extends Component{
 
-    state = {
-        isExtraHour: false,
-        isFacePainting: false,
-        isPiniata: false,
-        isAnimator: false,
-        isIllusionist: false
-    };
+const AddOptions = ({
+                        onChangeExtraHour,
+                        onChangeFacePainting,
+                        onChangePiniata,
+                        onChangeAnimator,
+                        onChangeIllusionist,
+                        isExtraHour,
+                        isFacePainting,
+                        isPiniata,
+                        isAnimator,
+                        isIllusionist
+                    }) => (
 
-    onChangeExtraHour = () => {
-        this.setState(initialState =>({
-            isExtraHour: !initialState.isExtraHour
-        }))
-    };
-
-    onFacePainting = () => {
-        this.setState(initialState =>({
-            isFacePainting: !initialState.isFacePainting
-        }))
-    };
-
-    onChangePiniata = () => {
-        this.setState(initialState =>({
-            isPiniata: !initialState.isPiniata
-        }))
-    };
-
-    onAnimator = () => {
-        this.setState(initialState =>({
-            isAnimator: !initialState.isAnimator
-        }))
-    };
-
-    onIllusionist = () => {
-        this.setState(initialState =>({
-            isIllusionist: !initialState.isIllusionist
-        }))
-    };
-
-    render() {
-        return (
             <div className='optionsContainer'>
                 <label>
                     <input
                         name='extraHour'
                         type='checkbox'
-                        checked={this.state.isExtraHour}
-                        onChange={this.onChangeExtraHour}
-
+                        checked={isExtraHour}
+                        onChange={onChangeExtraHour}
                     />
                     <span className='checkbox'>
                         Dodatkowa godzina zabawy
@@ -60,8 +31,8 @@ class AddOptions extends Component{
                     <input
                         name='facePainting'
                         type='checkbox'
-                        checked={this.state.isFacePainting}
-                        onChange={this.onFacePainting}
+                        checked={isFacePainting}
+                        onChange={onChangeFacePainting}
                     />
                     <span className='checkbox'>
                         Malowanie buziek
@@ -71,8 +42,8 @@ class AddOptions extends Component{
                     <input
                         name='piniata'
                         type='checkbox'
-                        checked={this.state.isPiniata}
-                        onChange={this.onChangePiniata}
+                        checked={isPiniata}
+                        onChange={onChangePiniata}
                     />
                     <span className='checkbox'>
                         Piniata
@@ -82,8 +53,8 @@ class AddOptions extends Component{
                     <input
                         name='animator'
                         type='checkbox'
-                        checked={this.state.isAnimator}
-                        onChange={this.onAnimator}
+                        checked={isAnimator}
+                        onChange={onChangeAnimator}
                     />
                     <span className='checkbox'>
                         Dodatkowy animator
@@ -93,16 +64,14 @@ class AddOptions extends Component{
                     <input
                         name='illusionist'
                         type='checkbox'
-                        checked={this.state.isIllusionist}
-                        onChange={this.onIllusionist}
+                        checked={isIllusionist}
+                        onChange={onChangeIllusionist}
                     />
                     <span className='checkbox'>
                         Pokaz iluzjonisty
                     </span>
                 </label>
             </div>
-        )
-    }
-}
+);
 
 export default AddOptions;
