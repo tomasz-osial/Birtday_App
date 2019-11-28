@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Birtday_App/static/css/main.ad61c778.chunk.css",
-    "main.js": "/Birtday_App/static/js/main.74e4990d.chunk.js",
-    "main.js.map": "/Birtday_App/static/js/main.74e4990d.chunk.js.map",
+    "main.css": "/Birtday_App/static/css/main.c0efdaf1.chunk.css",
+    "main.js": "/Birtday_App/static/js/main.3b0b51cf.chunk.js",
+    "main.js.map": "/Birtday_App/static/js/main.3b0b51cf.chunk.js.map",
     "runtime-main.js": "/Birtday_App/static/js/runtime-main.7131fe45.js",
     "runtime-main.js.map": "/Birtday_App/static/js/runtime-main.7131fe45.js.map",
     "static/css/2.b90ce945.chunk.css": "/Birtday_App/static/css/2.b90ce945.chunk.css",
-    "static/js/2.3d97964b.chunk.js": "/Birtday_App/static/js/2.3d97964b.chunk.js",
-    "static/js/2.3d97964b.chunk.js.map": "/Birtday_App/static/js/2.3d97964b.chunk.js.map",
+    "static/js/2.8811b614.chunk.js": "/Birtday_App/static/js/2.8811b614.chunk.js",
+    "static/js/2.8811b614.chunk.js.map": "/Birtday_App/static/js/2.8811b614.chunk.js.map",
     "index.html": "/Birtday_App/index.html",
-    "precache-manifest.47e634d619f84bc9b1097df770526de4.js": "/Birtday_App/precache-manifest.47e634d619f84bc9b1097df770526de4.js",
+    "precache-manifest.1208bff91ffdad288ab2ba234e1a2684.js": "/Birtday_App/precache-manifest.1208bff91ffdad288ab2ba234e1a2684.js",
     "service-worker.js": "/Birtday_App/service-worker.js",
     "static/css/2.b90ce945.chunk.css.map": "/Birtday_App/static/css/2.b90ce945.chunk.css.map",
-    "static/css/main.ad61c778.chunk.css.map": "/Birtday_App/static/css/main.ad61c778.chunk.css.map",
+    "static/css/main.c0efdaf1.chunk.css.map": "/Birtday_App/static/css/main.c0efdaf1.chunk.css.map",
     "static/media/4k-wallpaper-adorable-blur-boy-1148998.jpg": "/Birtday_App/static/media/4k-wallpaper-adorable-blur-boy-1148998.2697fce4.jpg",
     "static/media/action-activity-balls-day-296302.jpg": "/Birtday_App/static/media/action-activity-balls-day-296302.c7c35c89.jpg",
     "static/media/action-activity-boy-children-296301.jpg": "/Birtday_App/static/media/action-activity-boy-children-296301.e32548c0.jpg",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.7131fe45.js",
     "static/css/2.b90ce945.chunk.css",
-    "static/js/2.3d97964b.chunk.js",
-    "static/css/main.ad61c778.chunk.css",
-    "static/js/main.74e4990d.chunk.js"
+    "static/js/2.8811b614.chunk.js",
+    "static/css/main.c0efdaf1.chunk.css",
+    "static/js/main.3b0b51cf.chunk.js"
   ]
 }
