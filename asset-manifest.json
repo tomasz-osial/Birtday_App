@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Birtday_App/static/css/main.ad61c778.chunk.css",
+    "main.js": "/Birtday_App/static/js/main.74e4990d.chunk.js",
+    "main.js.map": "/Birtday_App/static/js/main.74e4990d.chunk.js.map",
+    "runtime-main.js": "/Birtday_App/static/js/runtime-main.7131fe45.js",
+    "runtime-main.js.map": "/Birtday_App/static/js/runtime-main.7131fe45.js.map",
+    "static/css/2.b90ce945.chunk.css": "/Birtday_App/static/css/2.b90ce945.chunk.css",
+    "static/js/2.3d97964b.chunk.js": "/Birtday_App/static/js/2.3d97964b.chunk.js",
+    "static/js/2.3d97964b.chunk.js.map": "/Birtday_App/static/js/2.3d97964b.chunk.js.map",
+    "index.html": "/Birtday_App/index.html",
+    "precache-manifest.47e634d619f84bc9b1097df770526de4.js": "/Birtday_App/precache-manifest.47e634d619f84bc9b1097df770526de4.js",
+    "service-worker.js": "/Birtday_App/service-worker.js",
+    "static/css/2.b90ce945.chunk.css.map": "/Birtday_App/static/css/2.b90ce945.chunk.css.map",
+    "static/css/main.ad61c778.chunk.css.map": "/Birtday_App/static/css/main.ad61c778.chunk.css.map",
+    "static/media/4k-wallpaper-adorable-blur-boy-1148998.jpg": "/Birtday_App/static/media/4k-wallpaper-adorable-blur-boy-1148998.2697fce4.jpg",
+    "static/media/action-activity-balls-day-296302.jpg": "/Birtday_App/static/media/action-activity-balls-day-296302.c7c35c89.jpg",
+    "static/media/action-activity-boy-children-296301.jpg": "/Birtday_App/static/media/action-activity-boy-children-296301.e32548c0.jpg",
+    "static/media/style.scss": "/Birtday_App/static/media/boy-playing-with-fall-leaves-outdoors-36965.77cf5315.jpg",
+    "static/media/child-clouds-enjoyment-environment-552168.jpg": "/Birtday_App/static/media/child-clouds-enjoyment-environment-552168.bb69b69e.jpg",
+    "static/media/depth-of-field-photography-of-p-l-a-y-wooden-letter-decors-591652.jpg": "/Birtday_App/static/media/depth-of-field-photography-of-p-l-a-y-wooden-letter-decors-591652.22c2277a.jpg",
+    "static/media/photo-of-children-playing-with-dry-leaves-1582736.jpg": "/Birtday_App/static/media/photo-of-children-playing-with-dry-leaves-1582736.1f0cc65c.jpg",
+    "static/media/calculator.scss": "/Birtday_App/static/media/ramin-talebi-u_b0jWnkgM0-unsplash.7416ae93.jpg",
+    "static/media/sunglasses-girl-swimming-pool-swimming-61129.jpg": "/Birtday_App/static/media/sunglasses-girl-swimming-pool-swimming-61129.8ee13c8f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7131fe45.js",
+    "static/css/2.b90ce945.chunk.css",
+    "static/js/2.3d97964b.chunk.js",
+    "static/css/main.ad61c778.chunk.css",
+    "static/js/main.74e4990d.chunk.js"
+  ]
+}
