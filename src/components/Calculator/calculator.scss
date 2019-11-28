@@ -23,12 +23,16 @@ body {
 }
 .offerContainer{
   text-align: left;
+  margin-left: 20px;
+}
+.offerTitle {
+  text-align: center;
 }
 .calcContainer {
   background: darkseagreen;
   padding: 30px;
   opacity: 0.9;
-  border-radius: 5px;
+  border-radius: 110px;
   width: 84vw;
   position: relative;
   display: grid;
@@ -43,7 +47,7 @@ body {
 .calcTitle {
   background: darkcyan;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Gloria Hallelujah', 'sans-serif';
   color: greenyellow;
   padding: 40px;
   font-size: 32px;
@@ -91,7 +95,7 @@ body {
 .offerInfo {
   font-size: 18px;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   background: #49332B;
   color: white;
   border-radius: 5px;
@@ -103,4 +107,5 @@ body {
 }
 .totalCost {
   font-size: 26px;
+  margin: 10px 0 10px 0;
 }

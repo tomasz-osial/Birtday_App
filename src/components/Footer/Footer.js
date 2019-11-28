@@ -5,11 +5,13 @@ import './Footer.scss'
 const Footer = () => (
     <div className='footerContainer'>
         <span className='logoContainer'>
-                <img src={logo} alt= {"Logotyp"} className='logo'/>
+             <a href='#header'>
+                  <img src={logo} alt= {"Logotyp"} className='logo'/>
                 <h1 className='name'>
-                    Zagroda.pl
+                    Prosiakowo.pl
                 </h1>
-            </span>
+             </a>
+        </span>
     </div>
 );
 

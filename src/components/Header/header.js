@@ -6,27 +6,30 @@ import './style.scss'
 
 WebFont.load({
     google: {
-        families: ['Fredoka+One', 'sans-serif']
+        families: ['Gloria Hallelujah', 'sans-serif']
     }
 });
 
 
 const Header = () => {
     return (
-        <div className='headContainer'>
+        <div id='header' className='headContainer'>
             <span className='logoContainer'>
                 <img src={logo} alt= {"Logotyp"} className='logo'/>
                 <h1 className='name'>
-                    Zagroda.pl
+                    Prosiakowo.pl
                 </h1>
             </span>
             <ul className='menu'>
-                <a href="#div_id">
+                <a href="#about_us">
                     <li className='menuElement'>O nas!</li>
                 </a>
-                <li className='menuElement'>Galeria</li>
-                <li className='menuElement'>Zaplanuj urodziny</li>
-                <li className='menuElement'>Kontakt</li>
+                <a href='#gallery'>
+                    <li className='menuElement'>Galeria</li>
+                </a>
+                <a href='#calculator'>
+                    <li className='menuElement'>Zaplanuj urodziny</li>
+                </a>
             </ul>
         </div>
     )

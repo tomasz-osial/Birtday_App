@@ -1,8 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
 .bannerTitle {
   background: lightgreen;
   text-align: center;
-  font-family: sans-serif;
-  color: saddlebrown;
+  font-family: 'Gloria Hallelujah', 'sans-serif';
+  color: #49332B;
   padding: 40px;
   font-size: 32px;
   font-weight: bold;
@@ -30,7 +33,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-radius: 5px;
+  border-radius: 110px;
   box-sizing: border-box;
   transition: 1s;
   line-height: 130%;
@@ -39,11 +42,12 @@
 }
 .text:hover {
   transform: scale(1.3) rotate(3deg);
-  border: 8px solid saddlebrown;
+  border: 8px solid #49332B;
 }
 .title {
-  color: saddlebrown;
+  color: #49332B;
   white-space: nowrap;
+  font-family: 'Gloria Hallelujah', 'sans-serif';
 }
 .button {
   border-radius: 25px;
@@ -54,7 +58,7 @@
   font-size: 22px;
 }
 .button:hover {
-  background: saddlebrown;
+  background: #49332B;
   color: oldlace;
   opacity: 1;
 }

@@ -50,7 +50,7 @@ class Gallery extends Component {
     render() {
         return (
             <>
-                <div className='galleryTitle'>Galeria</div>
+                <div id='gallery' className='galleryTitle'>Galeria</div>
                 <div className='slider'>
                     <LeftArrow
                         leftArrow = {this.state.leftArrow}

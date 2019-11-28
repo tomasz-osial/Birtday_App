@@ -10,7 +10,7 @@ import Footer from "./components/Footer/Footer";
 
 WebFont.load({
     google: {
-        families: ['Fredoka+One', 'sans-serif']
+        families: ['Gloria Hallelujah', 'sans-serif']
     }
 });
 
