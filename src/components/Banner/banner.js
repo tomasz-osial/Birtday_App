@@ -9,10 +9,10 @@ const Banner = () => {
             <div className='bannerContainer'>
                  <span className='text'>
                      <h1 className='title'>Podejmij wyzwanie</h1>
-                     <p>Jeśli masz już dość sztampowych scenariuszy urodzinowych dla dzieci, a<br/> nie chcesz przez dwie godziny
-                         pilnować dziecka zdzierającego gardło w kulkach, przyjdź do Nas!
-                         U nas dzieciaki się porządnie zmęczą, a Ty przez ten czas spokojnie napijesz się kawy,
-                         poplotkujesz na temat innych rodziców lub wreszcie nie zrobisz nic!</p>
+                     <p className='bannerText'>Jeśli masz już dość sztampowych scenariuszy <br/>urodzinowych dla dzieci, a nie chcesz <br/>przez dwie godziny
+                         pilnować dziecka<br/> zdzierającego gardło w kulkach, przyjdź do Nas!<br/>
+                         U nas dzieciaki się porządnie zmęczą,<br/> a Ty przez ten czas spokojnie<br/> napijesz się kawy,
+                         poplotkujesz na temat<br/> innych rodziców lub wreszcie nie zrobisz nic!</p>
                      <a href='#calculator'>
                          <button className='button'>Zapoznaj się z ofertą</button>
                      </a>
