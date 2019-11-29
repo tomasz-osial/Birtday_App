@@ -2,7 +2,6 @@
   "name": "birthday-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tomasz-osial.github.io/Birtday_App",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "node-sass": "^4.13.0",
