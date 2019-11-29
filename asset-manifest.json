@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.852cbc71.chunk.css",
+    "main.css": "/static/css/main.b72d1d63.chunk.css",
     "main.js": "/static/js/main.c9fed362.chunk.js",
     "main.js.map": "/static/js/main.c9fed362.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e4695665.js",
@@ -9,10 +9,10 @@
     "static/js/2.8811b614.chunk.js": "/static/js/2.8811b614.chunk.js",
     "static/js/2.8811b614.chunk.js.map": "/static/js/2.8811b614.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.aa4076f19d9a362703a1bd481621ce08.js": "/precache-manifest.aa4076f19d9a362703a1bd481621ce08.js",
+    "precache-manifest.f9eab7fac8d6b9b837fda427b70f430b.js": "/precache-manifest.f9eab7fac8d6b9b837fda427b70f430b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.b90ce945.chunk.css.map": "/static/css/2.b90ce945.chunk.css.map",
-    "static/css/main.852cbc71.chunk.css.map": "/static/css/main.852cbc71.chunk.css.map",
+    "static/css/main.b72d1d63.chunk.css.map": "/static/css/main.b72d1d63.chunk.css.map",
     "static/media/4k-wallpaper-adorable-blur-boy-1148998.jpg": "/static/media/4k-wallpaper-adorable-blur-boy-1148998.2697fce4.jpg",
     "static/media/action-activity-balls-day-296302.jpg": "/static/media/action-activity-balls-day-296302.c7c35c89.jpg",
     "static/media/action-activity-boy-children-296301.jpg": "/static/media/action-activity-boy-children-296301.e32548c0.jpg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.e4695665.js",
     "static/css/2.b90ce945.chunk.css",
     "static/js/2.8811b614.chunk.js",
-    "static/css/main.852cbc71.chunk.css",
+    "static/css/main.b72d1d63.chunk.css",
     "static/js/main.c9fed362.chunk.js"
   ]
 }
